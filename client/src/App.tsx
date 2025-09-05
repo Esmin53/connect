@@ -1,12 +1,11 @@
 import './App.css'
+import Homepage from './pages/Homepage'
 
 function App() {
 
   return (
-    <div className='w-screen h-screen bg-red-200 box-content flex items-center justify-center'>
-      <div className='w-full h-24 bg-yellow-400'>
-
-      </div>
+    <div className='w-screen h-screen flex flex-col'>
+      <Homepage />
     </div>
   )
 }

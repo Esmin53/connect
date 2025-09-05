@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+* {
+  font-family: "Quicksand";
+}
+
+.blob {
+  border-radius:
+    /* horizontal */
+    100% 30% 60% 70% /
+    /* vertical */
+    50% 40% 70% 70%;
+}
